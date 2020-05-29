@@ -3,10 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0460A53F248118C7009952FA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A53E248118C7009952FA /* HomeViewController.swift */; };
+		0460A54224811A65009952FA /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A54124811A65009952FA /* Validation.swift */; };
+		0460A55924813B30009952FA /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A54524813B30009952FA /* IQNSArray+Sort.swift */; };
+		0460A55A24813B30009952FA /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A54624813B30009952FA /* IQUIScrollView+Additions.swift */; };
+		0460A55B24813B30009952FA /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A54724813B30009952FA /* IQUITextFieldView+Additions.swift */; };
+		0460A55C24813B30009952FA /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A54824813B30009952FA /* IQUIView+Hierarchy.swift */; };
+		0460A55D24813B30009952FA /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A54924813B30009952FA /* IQUIViewController+Additions.swift */; };
+		0460A55E24813B30009952FA /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A54B24813B30009952FA /* IQKeyboardManagerConstants.swift */; };
+		0460A55F24813B30009952FA /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A54C24813B30009952FA /* IQKeyboardManagerConstantsInternal.swift */; };
+		0460A56024813B30009952FA /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A54D24813B30009952FA /* IQKeyboardManager.swift */; };
+		0460A56124813B30009952FA /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A54F24813B30009952FA /* IQKeyboardReturnKeyHandler.swift */; };
+		0460A56224813B30009952FA /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A55124813B30009952FA /* IQTextView.swift */; };
+		0460A56324813B30009952FA /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A55324813B30009952FA /* IQBarButtonItem.swift */; };
+		0460A56424813B30009952FA /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A55424813B30009952FA /* IQInvocation.swift */; };
+		0460A56524813B30009952FA /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A55524813B30009952FA /* IQPreviousNextView.swift */; };
+		0460A56624813B30009952FA /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A55624813B30009952FA /* IQTitleBarButtonItem.swift */; };
+		0460A56724813B30009952FA /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A55724813B30009952FA /* IQToolbar.swift */; };
+		0460A56824813B30009952FA /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A55824813B30009952FA /* IQUIView+IQKeyboardToolbar.swift */; };
+		0460A56A24814778009952FA /* APJTextPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460A56924814778009952FA /* APJTextPickerView.swift */; };
 		048CE4FC2480ACFC007B3D56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CE4FB2480ACFC007B3D56 /* AppDelegate.swift */; };
 		048CE4FE2480ACFC007B3D56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CE4FD2480ACFC007B3D56 /* ViewController.swift */; };
 		048CE5012480ACFC007B3D56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048CE4FF2480ACFC007B3D56 /* Main.storyboard */; };
@@ -15,6 +34,9 @@
 		048CE5092480ACFE007B3D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048CE5072480ACFE007B3D56 /* LaunchScreen.storyboard */; };
 		048CE5142480ACFF007B3D56 /* Test_Inceptive_TechnologiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CE5132480ACFF007B3D56 /* Test_Inceptive_TechnologiesTests.swift */; };
 		048CE51F2480ACFF007B3D56 /* Test_Inceptive_TechnologiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CE51E2480ACFF007B3D56 /* Test_Inceptive_TechnologiesUITests.swift */; };
+		4A3864912F936004E59F5848 /* Pods_Test_Inceptive_TechnologiesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7FC2C7934681B3E262A3E7 /* Pods_Test_Inceptive_TechnologiesTests.framework */; };
+		A7B05DD5D366235197020FBE /* Pods_Test_Inceptive_TechnologiesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F0279B30FB61A04453D026 /* Pods_Test_Inceptive_TechnologiesUITests.framework */; };
+		EAA0F246F85A2FEE24E9C3D7 /* Pods_Test_Inceptive_Technologies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4CAE9F89D8465F8D045956 /* Pods_Test_Inceptive_Technologies.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +57,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0460A53E248118C7009952FA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0460A54124811A65009952FA /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		0460A54524813B30009952FA /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		0460A54624813B30009952FA /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		0460A54724813B30009952FA /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		0460A54824813B30009952FA /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		0460A54924813B30009952FA /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		0460A54B24813B30009952FA /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		0460A54C24813B30009952FA /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		0460A54D24813B30009952FA /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		0460A54E24813B30009952FA /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		0460A54F24813B30009952FA /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		0460A55124813B30009952FA /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		0460A55324813B30009952FA /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		0460A55424813B30009952FA /* IQInvocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQInvocation.swift; sourceTree = "<group>"; };
+		0460A55524813B30009952FA /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		0460A55624813B30009952FA /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		0460A55724813B30009952FA /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		0460A55824813B30009952FA /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		0460A56924814778009952FA /* APJTextPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APJTextPickerView.swift; sourceTree = "<group>"; };
 		048CE4F82480ACFC007B3D56 /* Test Inceptive Technologies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Inceptive Technologies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		048CE4FB2480ACFC007B3D56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048CE4FD2480ACFC007B3D56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +91,15 @@
 		048CE51A2480ACFF007B3D56 /* Test Inceptive TechnologiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Inceptive TechnologiesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		048CE51E2480ACFF007B3D56 /* Test_Inceptive_TechnologiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Inceptive_TechnologiesUITests.swift; sourceTree = "<group>"; };
 		048CE5202480ACFF007B3D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1233CA8A09699D6C58B53BA3 /* Pods-Test Inceptive TechnologiesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Inceptive TechnologiesUITests.release.xcconfig"; path = "Target Support Files/Pods-Test Inceptive TechnologiesUITests/Pods-Test Inceptive TechnologiesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3C7FC2C7934681B3E262A3E7 /* Pods_Test_Inceptive_TechnologiesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Inceptive_TechnologiesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4807665AE891C1FA92411720 /* Pods-Test Inceptive Technologies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Inceptive Technologies.debug.xcconfig"; path = "Target Support Files/Pods-Test Inceptive Technologies/Pods-Test Inceptive Technologies.debug.xcconfig"; sourceTree = "<group>"; };
+		74F0279B30FB61A04453D026 /* Pods_Test_Inceptive_TechnologiesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Inceptive_TechnologiesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC8A2AB8E0D24FC7096E467 /* Pods-Test Inceptive Technologies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Inceptive Technologies.release.xcconfig"; path = "Target Support Files/Pods-Test Inceptive Technologies/Pods-Test Inceptive Technologies.release.xcconfig"; sourceTree = "<group>"; };
+		9A4CAE9F89D8465F8D045956 /* Pods_Test_Inceptive_Technologies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Inceptive_Technologies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86A8C424049BB164011EB5A /* Pods-Test Inceptive TechnologiesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Inceptive TechnologiesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Test Inceptive TechnologiesUITests/Pods-Test Inceptive TechnologiesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E76A6C93B92F701C8CCD621D /* Pods-Test Inceptive TechnologiesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Inceptive TechnologiesTests.debug.xcconfig"; path = "Target Support Files/Pods-Test Inceptive TechnologiesTests/Pods-Test Inceptive TechnologiesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E875A30E42F4288A24F47EA4 /* Pods-Test Inceptive TechnologiesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Inceptive TechnologiesTests.release.xcconfig"; path = "Target Support Files/Pods-Test Inceptive TechnologiesTests/Pods-Test Inceptive TechnologiesTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA0F246F85A2FEE24E9C3D7 /* Pods_Test_Inceptive_Technologies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A3864912F936004E59F5848 /* Pods_Test_Inceptive_TechnologiesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +123,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B05DD5D366235197020FBE /* Pods_Test_Inceptive_TechnologiesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0460A54024811A40009952FA /* CustomeClass */ = {
+			isa = PBXGroup;
+			children = (
+				0460A56924814778009952FA /* APJTextPickerView.swift */,
+				0460A54124811A65009952FA /* Validation.swift */,
+			);
+			path = CustomeClass;
+			sourceTree = "<group>";
+		};
+		0460A54324813B2F009952FA /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				0460A54424813B30009952FA /* Categories */,
+				0460A54A24813B30009952FA /* Constants */,
+				0460A54D24813B30009952FA /* IQKeyboardManager.swift */,
+				0460A54E24813B30009952FA /* IQKeyboardManagerSwift.h */,
+				0460A54F24813B30009952FA /* IQKeyboardReturnKeyHandler.swift */,
+				0460A55024813B30009952FA /* IQTextView */,
+				0460A55224813B30009952FA /* IQToolbar */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		0460A54424813B30009952FA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0460A54524813B30009952FA /* IQNSArray+Sort.swift */,
+				0460A54624813B30009952FA /* IQUIScrollView+Additions.swift */,
+				0460A54724813B30009952FA /* IQUITextFieldView+Additions.swift */,
+				0460A54824813B30009952FA /* IQUIView+Hierarchy.swift */,
+				0460A54924813B30009952FA /* IQUIViewController+Additions.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		0460A54A24813B30009952FA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0460A54B24813B30009952FA /* IQKeyboardManagerConstants.swift */,
+				0460A54C24813B30009952FA /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		0460A55024813B30009952FA /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				0460A55124813B30009952FA /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		0460A55224813B30009952FA /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				0460A55324813B30009952FA /* IQBarButtonItem.swift */,
+				0460A55424813B30009952FA /* IQInvocation.swift */,
+				0460A55524813B30009952FA /* IQPreviousNextView.swift */,
+				0460A55624813B30009952FA /* IQTitleBarButtonItem.swift */,
+				0460A55724813B30009952FA /* IQToolbar.swift */,
+				0460A55824813B30009952FA /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
 		048CE4EF2480ACFC007B3D56 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +202,8 @@
 				048CE5122480ACFF007B3D56 /* Test Inceptive TechnologiesTests */,
 				048CE51D2480ACFF007B3D56 /* Test Inceptive TechnologiesUITests */,
 				048CE4F92480ACFC007B3D56 /* Products */,
+				49CAB6E977E2BF6D251009C9 /* Pods */,
+				39CF25BC5842EFD7D3D89BF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +220,11 @@
 		048CE4FA2480ACFC007B3D56 /* Test Inceptive Technologies */ = {
 			isa = PBXGroup;
 			children = (
+				0460A54324813B2F009952FA /* IQKeyboardManagerSwift */,
+				0460A54024811A40009952FA /* CustomeClass */,
 				048CE4FB2480ACFC007B3D56 /* AppDelegate.swift */,
 				048CE4FD2480ACFC007B3D56 /* ViewController.swift */,
+				0460A53E248118C7009952FA /* HomeViewController.swift */,
 				048CE4FF2480ACFC007B3D56 /* Main.storyboard */,
 				048CE5052480ACFE007B3D56 /* Assets.xcassets */,
 				048CE5072480ACFE007B3D56 /* LaunchScreen.storyboard */,
@@ -128,6 +252,29 @@
 			path = "Test Inceptive TechnologiesUITests";
 			sourceTree = "<group>";
 		};
+		39CF25BC5842EFD7D3D89BF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A4CAE9F89D8465F8D045956 /* Pods_Test_Inceptive_Technologies.framework */,
+				3C7FC2C7934681B3E262A3E7 /* Pods_Test_Inceptive_TechnologiesTests.framework */,
+				74F0279B30FB61A04453D026 /* Pods_Test_Inceptive_TechnologiesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49CAB6E977E2BF6D251009C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4807665AE891C1FA92411720 /* Pods-Test Inceptive Technologies.debug.xcconfig */,
+				8AC8A2AB8E0D24FC7096E467 /* Pods-Test Inceptive Technologies.release.xcconfig */,
+				E76A6C93B92F701C8CCD621D /* Pods-Test Inceptive TechnologiesTests.debug.xcconfig */,
+				E875A30E42F4288A24F47EA4 /* Pods-Test Inceptive TechnologiesTests.release.xcconfig */,
+				A86A8C424049BB164011EB5A /* Pods-Test Inceptive TechnologiesUITests.debug.xcconfig */,
+				1233CA8A09699D6C58B53BA3 /* Pods-Test Inceptive TechnologiesUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +282,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 048CE5232480ACFF007B3D56 /* Build configuration list for PBXNativeTarget "Test Inceptive Technologies" */;
 			buildPhases = (
+				FA614AE40C105DD8E3A79CF0 /* [CP] Check Pods Manifest.lock */,
 				048CE4F42480ACFC007B3D56 /* Sources */,
 				048CE4F52480ACFC007B3D56 /* Frameworks */,
 				048CE4F62480ACFC007B3D56 /* Resources */,
+				095C016CA1B85F43FFFE0D1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 048CE5262480ACFF007B3D56 /* Build configuration list for PBXNativeTarget "Test Inceptive TechnologiesTests" */;
 			buildPhases = (
+				9E4C012397DFDDE0A871458C /* [CP] Check Pods Manifest.lock */,
 				048CE50B2480ACFF007B3D56 /* Sources */,
 				048CE50C2480ACFF007B3D56 /* Frameworks */,
 				048CE50D2480ACFF007B3D56 /* Resources */,
@@ -170,6 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 048CE5292480ACFF007B3D56 /* Build configuration list for PBXNativeTarget "Test Inceptive TechnologiesUITests" */;
 			buildPhases = (
+				C9078F4D1F66C826F0230062 /* [CP] Check Pods Manifest.lock */,
 				048CE5162480ACFF007B3D56 /* Sources */,
 				048CE5172480ACFF007B3D56 /* Frameworks */,
 				048CE5182480ACFF007B3D56 /* Resources */,
@@ -196,6 +347,7 @@
 				TargetAttributes = {
 					048CE4F72480ACFC007B3D56 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					048CE50E2480ACFF007B3D56 = {
 						CreatedOnToolsVersion = 10.3;
@@ -254,14 +406,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		095C016CA1B85F43FFFE0D1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Inceptive Technologies/Pods-Test Inceptive Technologies-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Inceptive Technologies/Pods-Test Inceptive Technologies-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test Inceptive Technologies/Pods-Test Inceptive Technologies-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E4C012397DFDDE0A871458C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test Inceptive TechnologiesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9078F4D1F66C826F0230062 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test Inceptive TechnologiesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA614AE40C105DD8E3A79CF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test Inceptive Technologies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		048CE4F42480ACFC007B3D56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0460A55C24813B30009952FA /* IQUIView+Hierarchy.swift in Sources */,
+				0460A55F24813B30009952FA /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				0460A56224813B30009952FA /* IQTextView.swift in Sources */,
+				0460A56A24814778009952FA /* APJTextPickerView.swift in Sources */,
+				0460A56424813B30009952FA /* IQInvocation.swift in Sources */,
+				0460A55B24813B30009952FA /* IQUITextFieldView+Additions.swift in Sources */,
+				0460A55E24813B30009952FA /* IQKeyboardManagerConstants.swift in Sources */,
+				0460A56624813B30009952FA /* IQTitleBarButtonItem.swift in Sources */,
 				048CE4FE2480ACFC007B3D56 /* ViewController.swift in Sources */,
+				0460A56024813B30009952FA /* IQKeyboardManager.swift in Sources */,
 				048CE4FC2480ACFC007B3D56 /* AppDelegate.swift in Sources */,
+				0460A56824813B30009952FA /* IQUIView+IQKeyboardToolbar.swift in Sources */,
 				048CE5042480ACFC007B3D56 /* Test_Inceptive_Technologies.xcdatamodeld in Sources */,
+				0460A55D24813B30009952FA /* IQUIViewController+Additions.swift in Sources */,
+				0460A56124813B30009952FA /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				0460A56324813B30009952FA /* IQBarButtonItem.swift in Sources */,
+				0460A55924813B30009952FA /* IQNSArray+Sort.swift in Sources */,
+				0460A56724813B30009952FA /* IQToolbar.swift in Sources */,
+				0460A56524813B30009952FA /* IQPreviousNextView.swift in Sources */,
+				0460A53F248118C7009952FA /* HomeViewController.swift in Sources */,
+				0460A54224811A65009952FA /* Validation.swift in Sources */,
+				0460A55A24813B30009952FA /* IQUIScrollView+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,8 +691,10 @@
 		};
 		048CE5242480ACFF007B3D56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4807665AE891C1FA92411720 /* Pods-Test Inceptive Technologies.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Test Inceptive Technologies/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -444,6 +703,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bhosalesb.Test-Inceptive-Technologies";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,8 +711,10 @@
 		};
 		048CE5252480ACFF007B3D56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC8A2AB8E0D24FC7096E467 /* Pods-Test Inceptive Technologies.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Test Inceptive Technologies/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,6 +730,7 @@
 		};
 		048CE5272480ACFF007B3D56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E76A6C93B92F701C8CCD621D /* Pods-Test Inceptive TechnologiesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +751,7 @@
 		};
 		048CE5282480ACFF007B3D56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E875A30E42F4288A24F47EA4 /* Pods-Test Inceptive TechnologiesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +772,7 @@
 		};
 		048CE52A2480ACFF007B3D56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A86A8C424049BB164011EB5A /* Pods-Test Inceptive TechnologiesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +792,7 @@
 		};
 		048CE52B2480ACFF007B3D56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1233CA8A09699D6C58B53BA3 /* Pods-Test Inceptive TechnologiesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
